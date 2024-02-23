@@ -16,14 +16,14 @@ spec:
 
 ---
 apiVersion: apps/v1
-kind: Deploymen
+kind: Deployment
 metadata:
   name: shopfront
 spec:
   selector:
     matchLabels:
       app: shopfront
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       labels:
