@@ -23,7 +23,7 @@ spec:
   selector:
     matchLabels:
       app: stockmanager
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
