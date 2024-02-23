@@ -23,7 +23,7 @@ spec:
   selector:
     matchLabels:
       app: shopfront
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
